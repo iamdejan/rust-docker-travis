@@ -1,5 +1,9 @@
 dist: bionic
 
+language: rust
+rust:
+  - 1.42.0
+
 services:
   - docker
 
