@@ -10,4 +10,4 @@ before_install:
 install:
   - docker login -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_PASSWORD
   - docker push $DOCKER_HUB_USERNAME/rust-docker-travis
-  - docker run --rm --name rust-docker-travis
+  - docker run --rm $DOCKER_HUB_USERNAME/rust-docker-travis
