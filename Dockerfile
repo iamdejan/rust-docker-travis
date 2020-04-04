@@ -7,4 +7,4 @@ COPY . .
 
 RUN cargo build --workspace --verbose
 
-CMD ["cargo", "run", "--verboose"]
+CMD ["cargo", "run", "--verbose"]
