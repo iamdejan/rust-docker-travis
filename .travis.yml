@@ -2,9 +2,7 @@ os: linux
 arch: arm64
 dist: bionic
 
-language: rust
-rust:
-  - 1.42.0
+language: generic
 
 services:
   - docker

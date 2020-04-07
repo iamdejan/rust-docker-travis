@@ -1,4 +1,4 @@
-FROM arm64v8/rust:1.42.0
+FROM iamdejan/bionic-rust:latest
 LABEL maintainer="Giovanni Dejan <giovanni.dejan@binus.ac.id>"
 
 RUN mkdir -p /app
